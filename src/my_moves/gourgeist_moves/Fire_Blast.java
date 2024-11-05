@@ -1,6 +1,6 @@
 package my_moves.gourgeist_moves;
 
-import lab2.Main;
+import utils.Chance;
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
@@ -20,7 +20,7 @@ public class Fire_Blast extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.1)){
+        if (Chance.chance(0.1)){
             Effect.burn(p);
         }
     }

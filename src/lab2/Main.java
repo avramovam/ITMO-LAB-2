@@ -28,8 +28,4 @@ public class Main {
         b.addFoe(p6);
         b.go();
     }
-
-    public static boolean chance(double d) {
-        return Math.random() < d;
-    }
 }

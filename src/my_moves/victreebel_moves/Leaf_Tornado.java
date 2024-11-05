@@ -1,6 +1,6 @@
 package my_moves.victreebel_moves;
 
-import lab2.Main;
+import utils.Chance;
 import ru.ifmo.se.pokemon.*;
 
 public class Leaf_Tornado extends SpecialMove {
@@ -12,7 +12,7 @@ public class Leaf_Tornado extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.3)) {
+        if (Chance.chance(0.3)) {
             Effect effect = new Effect().stat(Stat.ACCURACY, -1);
             p.addEffect(effect);
         }

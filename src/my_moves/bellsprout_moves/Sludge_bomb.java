@@ -1,7 +1,7 @@
 package my_moves.bellsprout_moves;
 
-import lab2.Main;
 import ru.ifmo.se.pokemon.*;
+import utils.Chance;
 
 public class Sludge_bomb extends SpecialMove {
     public Sludge_bomb(double pow, double acc) {
@@ -12,7 +12,7 @@ public class Sludge_bomb extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.3)) {
+        if (Chance.chance(0.3)) {
             Effect.poison(p);
         }
     }

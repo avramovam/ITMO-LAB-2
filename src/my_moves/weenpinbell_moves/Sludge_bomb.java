@@ -1,6 +1,6 @@
 package my_moves.weenpinbell_moves;
 
-import lab2.Main;
+import utils.Chance;
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
@@ -15,7 +15,7 @@ public class Sludge_bomb extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.3)) {
+        if (Chance.chance(0.3)) {
             Effect.poison(p);
         }
     }

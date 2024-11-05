@@ -1,6 +1,6 @@
 package my_moves.gourgeist_moves;
 
-import lab2.Main;
+import utils.Chance;
 import ru.ifmo.se.pokemon.*;
 
 public class Focus_Blast extends SpecialMove {
@@ -12,7 +12,7 @@ public class Focus_Blast extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.1)){
+        if (Chance.chance(0.1)){
             Effect eff = new Effect().stat(Stat.SPECIAL_DEFENSE, -1);
             p.addEffect(eff);
         }

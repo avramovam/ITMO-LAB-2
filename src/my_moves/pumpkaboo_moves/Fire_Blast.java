@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
-import lab2.Main;
+import utils.Chance;
 
 public class Fire_Blast extends SpecialMove {
     public Fire_Blast(double pow, double acc) {
@@ -20,7 +20,7 @@ public class Fire_Blast extends SpecialMove {
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
 
-        if (Main.chance(0.1)){
+        if (Chance.chance(0.1)){
             Effect.burn(p);
         }
     }
