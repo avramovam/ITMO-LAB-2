@@ -1,7 +1,7 @@
 package my_pokemons;
 
-import my_moves.weenpinbell_moves.Sludge_bomb;
-import my_moves.weenpinbell_moves.Swagger;
+import my_moves.bellsprout_moves.Sludge_bomb;
+import my_moves.comfey_moves.Swagger;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 import my_moves.weenpinbell_moves.Poison_Powder;

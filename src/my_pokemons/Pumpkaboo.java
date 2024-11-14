@@ -1,7 +1,7 @@
 package my_pokemons;
 
+import my_moves.comfey_moves.Facade;
 import my_moves.pumpkaboo_moves.Dream_Eater;
-import my_moves.pumpkaboo_moves.Facade;
 import my_moves.pumpkaboo_moves.Fire_Blast;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;

@@ -1,9 +1,9 @@
 package my_pokemons;
 
-import my_moves.victreebel_moves.Swagger;
-import my_moves.victreebel_moves.Sludge_bomb;
-import my_moves.victreebel_moves.Poison_Powder;
+import my_moves.bellsprout_moves.Sludge_bomb;
+import my_moves.comfey_moves.Swagger;
 import my_moves.victreebel_moves.Leaf_Tornado;
+import my_moves.weenpinbell_moves.Poison_Powder;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
