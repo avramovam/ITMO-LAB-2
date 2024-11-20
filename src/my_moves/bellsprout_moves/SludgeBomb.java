@@ -3,8 +3,8 @@ package my_moves.bellsprout_moves;
 import ru.ifmo.se.pokemon.*;
 import utils.Chance;
 
-public class Sludge_bomb extends SpecialMove {
-    public Sludge_bomb(double pow, double acc) {
+public class SludgeBomb extends SpecialMove {
+    public SludgeBomb(double pow, double acc) {
         super(Type.POISON, pow, acc);
     }
 

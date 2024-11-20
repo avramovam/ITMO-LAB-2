@@ -13,7 +13,7 @@ public class Facade extends PhysicalMove {
 
         Status self_effect = def.getCondition();
 
-        if (self_effect.toString().equals("BURN")) {
+        /*if (self_effect.equals(Status.BURN)) {
             super.applyOppDamage(def, damage*2);
         }
         if (self_effect.toString().equals("POISON")) {
@@ -21,7 +21,14 @@ public class Facade extends PhysicalMove {
         }
         if (self_effect.toString().equals("PARALYZE")) {
             super.applyOppDamage(def, damage*2);
+        }*/
+
+        switch (self_effect){
+            case BURN, PARALYZE, POISON: super.applyOppDamage(def, damage*2);
+            break;
+            default: super.applyOppDamage(def, damage);
         }
+
     }
     @Override
     protected String describe() {

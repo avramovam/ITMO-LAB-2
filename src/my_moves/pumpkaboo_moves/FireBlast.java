@@ -6,8 +6,8 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 import utils.Chance;
 
-public class Fire_Blast extends SpecialMove {
-    public Fire_Blast(double pow, double acc) {
+public class FireBlast extends SpecialMove {
+    public FireBlast(double pow, double acc) {
         super(Type.FIRE, pow, acc);
     }
 

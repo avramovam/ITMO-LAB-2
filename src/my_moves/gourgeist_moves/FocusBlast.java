@@ -3,8 +3,8 @@ package my_moves.gourgeist_moves;
 import utils.Chance;
 import ru.ifmo.se.pokemon.*;
 
-public class Focus_Blast extends SpecialMove {
-    public Focus_Blast(double pow, double acc) {
+public class FocusBlast extends SpecialMove {
+    public FocusBlast(double pow, double acc) {
         super(Type.FIGHTING, pow, acc);
     }
 

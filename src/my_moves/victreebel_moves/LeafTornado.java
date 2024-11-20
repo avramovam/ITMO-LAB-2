@@ -3,8 +3,8 @@ package my_moves.victreebel_moves;
 import utils.Chance;
 import ru.ifmo.se.pokemon.*;
 
-public class Leaf_Tornado extends SpecialMove {
-    public Leaf_Tornado(double pow, double acc) {
+public class LeafTornado extends SpecialMove {
+    public LeafTornado(double pow, double acc) {
         super(Type.GRASS, pow, acc);
     }
 

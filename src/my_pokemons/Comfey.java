@@ -1,6 +1,6 @@
 package my_pokemons;
 
-import my_moves.comfey_moves.Draining_Kiss;
+import my_moves.comfey_moves.DrainingKiss;
 import my_moves.comfey_moves.Facade;
 import my_moves.comfey_moves.Growth;
 import my_moves.comfey_moves.Swagger;
@@ -16,7 +16,7 @@ public class Comfey extends Pokemon {
 
         Growth growth = new Growth(0, 0);
         Facade facade = new Facade(70, 100);
-        Draining_Kiss drainingKiss = new Draining_Kiss(50, 100);
+        DrainingKiss drainingKiss = new DrainingKiss(50, 100);
         Swagger swagger = new Swagger(0, 85);
 
         super.setMove(growth, facade, drainingKiss, swagger);

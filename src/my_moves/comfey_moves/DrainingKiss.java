@@ -2,8 +2,8 @@ package my_moves.comfey_moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Draining_Kiss extends SpecialMove {
-    public Draining_Kiss(double pow, double acc) {
+public class DrainingKiss extends SpecialMove {
+    public DrainingKiss(double pow, double acc) {
         super(Type.FAIRY, pow, acc);
     }
 

@@ -4,8 +4,8 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.*;
 
-public class Dream_Eater extends SpecialMove {
-    public Dream_Eater(double pow, double acc) {
+public class DreamEater extends SpecialMove {
+    public DreamEater(double pow, double acc) {
         super(Type.PSYCHIC, pow, acc);
     }
 

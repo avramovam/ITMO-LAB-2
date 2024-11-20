@@ -2,8 +2,8 @@ package my_moves.weenpinbell_moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Poison_Powder extends StatusMove {
-    public Poison_Powder(double pow, double acc) {
+public class PoisonPowder extends StatusMove {
+    public PoisonPowder(double pow, double acc) {
         super(Type.POISON, pow, acc);
     }
 
